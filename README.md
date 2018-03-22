@@ -1,7 +1,7 @@
 # gatsby-starter-default
-The default Gatsby starter.
+Blog site using Gatsby.
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
+Gatsby is static site generator using React and GraphQL.
 
 ## Install
 
@@ -10,17 +10,19 @@ Make sure that you have the Gatsby CLI program installed:
 npm install --global gatsby-cli
 ```
 
-And run from your CLI:
+And run:
 ```sh
-gatsby new gatsby-example-site
+gatsby develop
 ```
-
-Then you can run it by:
+or Using YARN
 ```sh
-cd gatsby-example-site
+yarn develop
+```
+or Using NPM
+```sh
 npm run develop
 ```
 
 ## Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+Site is deployed in AWS S3. [Link](http://ratnadeep.blog.com.s3-website.ap-south-1.amazonaws.com/)
